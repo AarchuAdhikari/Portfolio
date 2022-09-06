@@ -7,3 +7,50 @@
     rgba(117, 109, 70, 0) 99.81%
   );
 }
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.title span {
+  padding: 0 1 rem;
+  border-bottom: 0.4rem solid rgb(104, 215, 235);
+}
+.icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.icons i {
+  font-size: 5rem;
+}
+.icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects {
+  background: #ebf1a8;
+  min-height: 25rem;
+}
+.contact_me span {
+  padding: 0 1 rem;
+  border-bottom: 0rem;
+}
+.contact_me {
+  background: #96d267;
+  min-height: 15rem;
+  border-radius: 25px;
+}
+.icons_media {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.group {
+  position: fixed;
+  bottom: 125px;
+  right: 20px;
+}
